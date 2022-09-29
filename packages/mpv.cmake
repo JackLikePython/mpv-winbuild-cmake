@@ -22,7 +22,7 @@ ExternalProject_Add(mpv
         spirv-cross
         vapoursynth
         libsdl2
-    GIT_REPOSITORY https://github.com/mpv-player/mpv.git
+    GIT_REPOSITORY https://github.com/JackLikePython/mpv.git
     SOURCE_DIR ${SOURCE_LOCATION}
     UPDATE_COMMAND ""
     CONFIGURE_COMMAND ${EXEC} meson <BINARY_DIR> <SOURCE_DIR>
